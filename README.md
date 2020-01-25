@@ -8,6 +8,8 @@ This was the problem we tried solving for ConocoPhillips as a part of the TAMU D
 # Data Overview
 The data set contained failure events that occurred on surface equipment and down-hole equipment and for each failure event, data has been gathered from over 107 sensors that collect a variety of physical information both on the surface and below the ground. It had 60K records for training our model and 16K records to evaluating its performance
 
+Kaggle competition link: https://www.kaggle.com/c/equipfailstest
+
 # Approach
 •	Since it was an anonymized data, we used Iterative imputer and some complex rules that we formulated to impute the missing values<br />
 •	Random Forest, XGBoost and Light GBM were used for prediction<br />
